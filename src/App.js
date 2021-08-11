@@ -1,11 +1,13 @@
 import React from 'react'
 import UseStateErrorEx from './Tutorial/UseStateErrorEx'
+import UseStateArray from './Tutorial/UseStateArray'
 
 function App() {
   return (
     <div className='container'>
       <h1> This is an advance app</h1>
-      <UseStateErrorEx />
+      <UseStateArray />
+      
     </div>
   )
 }
