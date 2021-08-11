@@ -6,7 +6,8 @@ function UseStateCounter() {
     const add=()=>setCount((prevCount)=>prevCount+1)
     const minus=()=>setCount((prevCount)=>prevCount-1)
     const reset=()=>setCount(c)
-
+    const addComplex=()=>setTimeout(()=>setCount((prevCount)=>prevCount+1),1000)
+   
     
     return (
         <>
@@ -15,6 +16,13 @@ function UseStateCounter() {
         <button className = 'btn' onClick = { add }> + </button>
         <button className = 'btn' onClick = { reset }> RESET </button>
         <button className = 'btn' onClick = { minus }> - </button>
+
+        </section>
+        <section style={{margin:'5rem 0'}}>
+        <h1>
+            complex
+        </h1>
+        <button className = 'btn'onClick = {addComplex}> + Complex </button>
 
         </section>
             
