@@ -1,6 +1,7 @@
 import React from 'react'
-import UseStateErrorEx from './Tutorial/UseStateErrorEx'
+//import UseStateErrorEx from './Tutorial/UseStateErrorEx'
 import UseStateArray from './Tutorial/UseStateArray'
+//import UseStateObject from './UseStateObject'
 
 function App() {
   return (
