@@ -2,14 +2,17 @@ import React from 'react'
 //import UseStateErrorEx from './Tutorial/UseStateErrorEx'
 //import UseStateArray from './Tutorial/UseStateArray'
 //import UseStateObject from './UseStateObject'
-import UseStateCounter from './Tutorial/UseStateCounter'
+//import UseStateCounter from './Tutorial/UseStateCounter'
+//import UseEffectBasic from './UseEffectBasic'
+//import Forms from './Forms'
+import LearnJSON from './Tutorial/LearnJSON'
+//import  './db.json'
 
 function App() {
   return (
     <div className='container'>
-      <h1> This is an advance app</h1>
       
-      <UseStateCounter/>
+      <LearnJSON />
       
     </div>
   )

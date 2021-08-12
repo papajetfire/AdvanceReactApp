@@ -17,12 +17,17 @@ function LearnJSON () {
     let c=b
     console.log(c)
 }    
+    const getUser=()=>{
+        axios.get("").then((users)=>{/*we are gettting the data  and stroing it in users and then consoling it*/
+        console.log(users)})
+    }
+    
     
     return (
         <>
         <h2> Random Title</h2>
         <button className="btn" onClick={clickHandle}>Post the user</button>
-        <button >Get user</button>
+        <button className='btn' onClick={getUser}>Get user</button>
             
         </>
     )
