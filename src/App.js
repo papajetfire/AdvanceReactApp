@@ -5,14 +5,15 @@ import React from 'react'
 //import UseStateCounter from './Tutorial/UseStateCounter'
 //import UseEffectBasic from './UseEffectBasic'
 //import Forms from './Forms'
-import LearnJSON from './Tutorial/LearnJSON'
+//import LearnJSON from './Tutorial/LearnJSON'
 //import  './db.json'
+import Index from './Tutorial/Reducer/Index'
 
 function App() {
   return (
     <div className='container'>
       
-      <LearnJSON />
+      <Index />
       
     </div>
   )
