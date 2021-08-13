@@ -7,13 +7,14 @@ import React from 'react'
 //import Forms from './Forms'
 //import LearnJSON from './Tutorial/LearnJSON'
 //import  './db.json'
-import Index from './Tutorial/Reducer/Index'
+//import Index from './Tutorial/Reducer/Index'
+import ReactRouterDom from './Tutorial/React-Router-Dom/index.js'
 
 function App() {
   return (
     <div className='container'>
       
-      <Index />
+      <ReactRouterDom />
       
     </div>
   )

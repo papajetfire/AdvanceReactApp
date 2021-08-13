@@ -1,13 +1,11 @@
 import React from 'react'
 
-function Model() {
+function Modal({modalContent}) {
     return (
         <div>
-            <h1>
-                this is model
-            </h1>
+           <h1>{modalContent}</h1> 
         </div>
     )
 }
 
-export default Model
+export default Modal
