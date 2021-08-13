@@ -8,13 +8,13 @@ import React from 'react'
 //import LearnJSON from './Tutorial/LearnJSON'
 //import  './db.json'
 //import Index from './Tutorial/Reducer/Index'
-import ReactRouterDom from './Tutorial/React-Router-Dom/index.js'
-
+//import ReactRouterDom from './Tutorial/React-Router-Dom/index.js'
+import PropDrilling from './Tutorial/PropDrilling'
 function App() {
   return (
     <div className='container'>
       
-      <ReactRouterDom />
+      <PropDrilling />
       
     </div>
   )
